@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 const AboutMe = () => {
     return (
@@ -36,7 +37,7 @@ const AboutMe = () => {
       <section className="mb-6">
         <h2 className="text-2xl font-semibold text-center mb-4">Projects</h2>
         <p className="text-center text-lg text-gray-700">
-          Check out some of my recent projects on my <a href="/projects" className="text-blue-500 hover:underline">Projects Page</a>.
+          Check out some of my recent projects on my <Link href="/projects">Projects Page</Link>
         </p>
       </section>
 
