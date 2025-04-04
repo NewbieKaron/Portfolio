@@ -1,0 +1,10 @@
+MDN(MOZILLA DEVELOPER NETWORK) - RESOURCE FOR WEB DEVELOPERS
+https://developer.mozilla.org/en-US/docs/Web/API
+
+REGULAR EXPRESSIONS: https://quickref.me/regex.html
+
+CODEPEN.IO 
+
+FORMIK = RUNTIME VALIDATION, BETTER THAN ZOD? https://formik.org/docs/overview
+
+ZOD = ZOD.DEV 
