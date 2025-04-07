@@ -8,3 +8,6 @@ CODEPEN.IO
 FORMIK = RUNTIME VALIDATION, BETTER THAN ZOD? https://formik.org/docs/overview
 
 ZOD = ZOD.DEV 
+
+
+Personal = https://ahrefs.com/blog/online-reputation-management/   AND https://www.leadquizzes.com/blog/portfolio-websites/

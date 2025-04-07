@@ -9,8 +9,7 @@ const AboutMe = () => {
       {/* Introduction Section */}
       <section className="mb-6">
         <p className="text-xl text-center text-gray-700">
-          Coding in simple term is basically WECSR cycle. CSR (Client side rendering)
-          Wakeup, Eat, Code, Sleep, Repeat
+        &quot;Don’t write code that’s just going to work. Write code that’s easy to maintain.&quot; — Robert C. Martin
         </p>
       </section>
 
@@ -19,16 +18,20 @@ const AboutMe = () => {
         <h2 className="text-2xl font-semibold text-center mb-4">Skills</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-center">
           <div className="bg-white p-4 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold">Eat</h3>
-            <p className="text-gray-600">If you`re hungry, <span className="bg-green-500 border-radius rounded-[10px]">EAT</span></p>
+            <h3 className="text-xl font-semibold">Languages & Frameworks</h3>
+            <p className="text-gray-600">HTML, CSS, JavaScript, React, Next.js, Lua</p>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold">Sleep</h3>
-            <p className="text-gray-600">Necessity</p>
+            <h3 className="text-xl font-semibold">Tools</h3>
+            <p className="text-gray-600">NPM, Visual Studio Code, Webpack, Roblox Studio</p>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold">Repeat</h3>
-            <p className="text-gray-600">Ah. The typical life cycle.</p>
+            <h3 className="text-xl font-semibold">Database</h3>
+            <p className="text-gray-600">SQL (MySQL) NoSQL (Firebase, DataStore)</p>
+          </div>
+          <div className="bg-white p-4 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold">Version Control</h3>
+            <p className="text-gray-600">Git, GitHub</p>
           </div>
         </div>
       </section>

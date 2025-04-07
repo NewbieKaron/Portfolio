@@ -1,17 +1,25 @@
 export enum NavbarLinks {
     HOME = "/",
     ABOUT = "/about-me",
-    SERVICES = "/services",
+    SERVICES = "/projects",
     CONTACT = "/contact"
 }
 
 export enum NavbarLabel {
     HOME = "HOME",
     ABOUT = "ABOUT ME",
-    SERVICES = "SERVICES",
+    SERVICES = "PROJECTS",
     CONTACT = "CONTACT"
 }
 
 export enum ButtonLabel {
     INDEX_BUTTON_LABEL = "My Projects"
+}
+
+export enum Socials {
+    EMAIL = "Test@email.com"
+}
+
+export enum ProjectLinks {
+    WORK_HOURS_CALCULATOR = "projects/work-hour-calculator/"
 }

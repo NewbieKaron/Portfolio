@@ -12,7 +12,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="bg-white-600 text-white p-4 shadow-md">
+    <div className="bg-black text-black text-white p-4 shadow-md">
       <nav className="container mx-auto flex justify-between items-center">
         {/* Logo/Brand */}
         <div className="text-3xl font-bold">
@@ -37,7 +37,7 @@ export const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white-600 text-white p-4 space-y-4 absolute top-12">
+        <div className="font-bold md:hidden bg-white-600 text-white p-4 space-y-4 absolute top-12">
           <Link href={NavbarLinks.HOME} className="block hover:text-gray-300">{NavbarLabel.HOME}</Link>
           <Link href={NavbarLinks.ABOUT} className="block hover:text-gray-300">{NavbarLabel.ABOUT}</Link>
           <Link href={NavbarLinks.SERVICES} className="block hover:text-gray-300">{NavbarLabel.SERVICES}</Link>
