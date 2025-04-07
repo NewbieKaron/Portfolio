@@ -1,6 +1,5 @@
 
 import { ButtonLabel } from "@page/enums/page";
-import { useEffect, useState } from "react";
 
 export const Button = () => {
     const changeButtonProp = () => {
