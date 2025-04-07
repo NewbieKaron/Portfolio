@@ -10,7 +10,6 @@ const WorkHoursCalculator = () => {
   const [shifts, setShifts] = useState<Shift[]>([{ startTime: '', endTime: '', breakTime: 60 }]);
   const [totalHours, setTotalHours] = useState<number>(0);
 
-  // Handle changes in any of the input fields
   const handleInputChange = (index: number, event: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
     const updatedShifts = [...shifts];
@@ -18,18 +17,15 @@ const WorkHoursCalculator = () => {
     setShifts(updatedShifts);
   };
 
-  // Add a new shift input
   const addShift = () => {
     setShifts([...shifts, { startTime: '', endTime: '', breakTime: 60 }]);
   };
 
-  // Remove a shift input
   const removeShift = (index: number) => {
     const updatedShifts = shifts.filter((_, i) => i !== index);
     setShifts(updatedShifts);
   };
 
-  // Calculate total hours worked across all shifts
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     let total = 0;
@@ -43,13 +39,12 @@ const WorkHoursCalculator = () => {
       const start = new Date(`2022-01-01T${startTime}:00`);
       const end = new Date(`2022-01-01T${endTime}:00`);
 
-      // If the end time is earlier than the start time, assume it's the next day
       if (end.getTime() < start.getTime()) {
         end.setDate(end.getDate() + 1);
       }
 
-      let totalTime = (end.getTime() - start.getTime()) / 1000 / 60 / 60; // in hours
-      totalTime -= breakTime / 60; // Subtract break time in hours
+      let totalTime = (end.getTime() - start.getTime()) / 1000 / 60 / 60; 
+      totalTime -= breakTime / 60; 
 
       total += totalTime;
     });
