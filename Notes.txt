@@ -11,3 +11,30 @@ ZOD = ZOD.DEV
 
 
 Personal = https://ahrefs.com/blog/online-reputation-management/   AND https://www.leadquizzes.com/blog/portfolio-websites/
+
+Todo: Make Kanban Board
+
+
+Legend:
+Holiday accounted = H
+Not Accounted = NA
+Without Saturday&Sunday = WSS
+
+                                8*22(WSS)
+Feb25-April7   April 8-31 (H)    May(NA)        June 1-13(NA)
+259             + 112            +176       +       80           = 627 hours (Feb 25 - June 13)
+
+### Frontend
+
+Next.js v14
+
+- React v18
+- TypeScript v5
+- TailwindCSS v3
+
+### Backend
+
+C# ASP.NET Core v8
+
+- Dapper v2
+- Swagger v3
