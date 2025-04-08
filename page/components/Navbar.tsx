@@ -28,7 +28,7 @@ export const Navbar = () => {
         </div>
 
         {/* Mobile Hamburger Icon */}
-        <div className="md:hidden flex items-center relative" onClick={toggleMenu}>
+        <div className="md:hidden flex items-center" onClick={toggleMenu}>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
@@ -37,7 +37,7 @@ export const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="font-bold md:hidden bg-white-600 text-white p-4 space-y-4 absolute top-12">
+        <div className="font-bold md:hidden bg-white-600 text-white p-4 space-y-4 top-12">
           <Link href={NavbarLinks.HOME} className="block hover:text-gray-300">{NavbarLabel.HOME}</Link>
           <Link href={NavbarLinks.ABOUT} className="block hover:text-gray-300">{NavbarLabel.ABOUT}</Link>
           <Link href={NavbarLinks.SERVICES} className="block hover:text-gray-300">{NavbarLabel.SERVICES}</Link>
