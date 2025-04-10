@@ -17,7 +17,7 @@ const Home = () => {
       <Button />
     </div>
     </>
-  )
+  ) 
 };
 
 export default Home;
