@@ -1,0 +1,18 @@
+React = library for UI 
+    To create react or use create:
+    Required: NodeJS 
+    In command prompt, npx create-react-app app-name
+
+React + NextJS 
+
+
+
+
+
+S.O.L.I.D Principles
+
+Single Responsibility Principle
+Open/Closed Principle
+Liskov Substitution
+Interface Segregation
+Dependency Inversion
